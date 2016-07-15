@@ -282,9 +282,9 @@ angular.module('ionic.contrib.drawer', ['ionic'])
   return {
     restrict: 'E',
     controller: 'drawerCtrl',
-    scope: {
-      side: '=side'
-    },
+    //scope: {
+    //  side: '=side'
+    //},
     link: function($scope, $element, $attr, ctrl) {
       $element.addClass($attr.side);
       
